@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bitdan.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-08-27T07:10:23.390Z</updated>
+    <title>bitdan&apos;s bog</title>
+    <updated>2020-08-27T07:11:56.230Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bitdan.github.io"/>
     <link rel="self" href="https://bitdan.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://bitdan.github.io/images/avatar.png</logo>
     <icon>https://bitdan.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, bitdan&apos;s bog</rights>
     <entry>
         <title type="html"><![CDATA[jetbrain全家桶激活]]></title>
         <id>https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/</id>
