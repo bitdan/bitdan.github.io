@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://bitdan.github.io</id>
+    <id>https://bitdan.github.io</id>
     <title>bitdan&apos;s bog</title>
-    <updated>2020-08-28T12:45:10.748Z</updated>
+    <updated>2020-08-28T12:46:19.893Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://bitdan.github.io"/>
-    <link rel="self" href="http://bitdan.github.io/atom.xml"/>
+    <link rel="alternate" href="https://bitdan.github.io"/>
+    <link rel="self" href="https://bitdan.github.io/atom.xml"/>
     <subtitle>学习记录</subtitle>
-    <logo>http://bitdan.github.io/images/avatar.png</logo>
-    <icon>http://bitdan.github.io/favicon.ico</icon>
+    <logo>https://bitdan.github.io/images/avatar.png</logo>
+    <icon>https://bitdan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, bitdan&apos;s bog</rights>
     <entry>
         <title type="html"><![CDATA[jetbrain全家桶激活]]></title>
-        <id>http://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/</id>
-        <link href="http://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/">
+        <id>https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/</id>
+        <link href="https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/">
         </link>
         <updated>2020-08-27T06:59:08.000Z</updated>
         <summary type="html"><![CDATA[<p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
