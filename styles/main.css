@@ -396,7 +396,7 @@ a {
   transition: all 0.3s;
 }
 .post-item .left .post-title:hover {
-  color: #212529;
+  color: #e9ecef;
 }
 .post-item .left .post-date {
   font-size: 18px;
@@ -758,3 +758,8 @@ a {
   font-size: 16px;
   margin: 4px 8px;
 }
+
+      body {
+        background: #1E1E1E;
+      }
+    
