@@ -1,151 +1,155 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
 
-<title>bitdan&#39;s bog</title>
+<head>
+  <meta charset="utf-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>bitdan&#39;s bog</title>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://bitdan.github.io/favicon.ico?v=1598939413452">
-<link rel="stylesheet" href="https://bitdan.github.io/styles/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://bitdan.github.io/favicon.ico?v=1598939413452">
+  <link rel="stylesheet" href="https://bitdan.github.io/styles/main.css">
 
 
 
-<!-- jsDelivr 加速  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-<script
-  src="https://cdn.jsdelivr.net/gh/bitdan/bitdan.github.io/media/js/jquery.min.js"></script>
 
-    <meta name="description" content="学习记录">
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    
-  </head>
-  <body>
-    <div id="app" class="main">
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://bitdan.github.io">
-        <img src="https://bitdan.github.io/images/avatar.png?v=1598939413452" class="site-logo">
-        <h1 class="site-title">bitdan&#39;s bog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
+  <!-- jsDelivr 加速  -->
+
+  <script src="https://cdn.jsdelivr.net/gh/bitdan/bitdan.github.io/media/js/jquery.min.js"></script>
+
+  <meta name="description" content="学习记录">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+
+</head>
+
+<body>
+  <div id="app" class="main">
+
+    <div class="sidebar" :class="{ 'full-height': menuVisible }">
+      <div class="top-container" data-aos="fade-right">
+        <div class="top-header-container">
+          <a class="site-title-container" href="https://bitdan.github.io">
+            <img src="https://cdn.jsdelivr.net/gh/bitdan/bitdan.github.io/images/avatar.png?v=1598939413452"
+              class="site-logo">
+            <h1 class="site-title">bitdan&#39;s bog</h1>
+          </a>
+          <div class="menu-btn" @click="menuVisible = !menuVisible">
+            <div class="line"></div>
+          </div>
+        </div>
+        <div>
+
+
           <a href="/" class="site-nav">
             首页
           </a>
-        
-      
-        
+
+
+
           <a href="/archives" class="site-nav">
             归档
           </a>
-        
-      
-        
+
+
+
           <a href="/tags" class="site-nav">
             标签
           </a>
-        
-      
-        
+
+
+
           <a href="/post/about" class="site-nav">
             关于
           </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
+
+
+        </div>
+      </div>
+      <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+        <div class="social-container">
+
+
           <a class="social-link" href="https://github.com/bitdan" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      学习记录
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/bitdan/bitdan.github.io" target="_blank">bitdan</a> | <a class="rss" href="https://bitdan.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/">
-                  <h2 class="post-title">jetbrain全家桶激活</h2>
-                </a>
-                <div class="post-date">
-                  2020-08-27
-                </div>
-                <div class="post-abstract">
-                  <p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
 
-                </div>
-              </div>
-              
-                <a class="right" href="https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/">
-                  <div class="feature-container" style="background-image: url('https://i.loli.net/2020/08/27/gQyKcoZWztb48q1.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
 
-          <div class="pagination-container">
-  
-  
-</div>
 
+
+
+
+
+
+        </div>
+        <div class="site-description">
+          学习记录
+        </div>
+        <div class="site-footer">
+          Powered by <a href="https://github.com/bitdan/bitdan.github.io" target="_blank">bitdan</a> | <a class="rss"
+            href="https://bitdan.github.io/atom.xml" target="_blank">RSS</a>
         </div>
       </div>
     </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
 
-AOS.init();
+    <div class="main-container">
+      <div class="content-container" data-aos="fade-up">
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        <article class="post-item">
+          <div class="left">
+            <a href="https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/">
+              <h2 class="post-title">jetbrain全家桶激活</h2>
+            </a>
+            <div class="post-date">
+              2020-08-27
+            </div>
+            <div class="post-abstract">
+              <p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
 
-</script>
+            </div>
+          </div>
+
+          <a class="right" href="https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/">
+            <div class="feature-container"
+              style="background-image: url('https://i.loli.net/2020/08/27/gQyKcoZWztb48q1.png')">
+            </div>
+          </a>
+
+        </article>
+
+
+        <div class="pagination-container">
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script type="application/javascript">
+
+    AOS.init();
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+        menuVisible: false,
+      },
+    })
+
+  </script>
 
 
   <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -157,5 +161,6 @@ var app = new Vue({
 
 
 
-  </body>
+</body>
+
 </html>
