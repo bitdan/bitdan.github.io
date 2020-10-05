@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bitdan.github.io</id>
     <title>bitdan&apos;s bog</title>
-    <updated>2020-09-09T14:43:24.065Z</updated>
+    <updated>2020-10-05T04:22:07.175Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bitdan.github.io"/>
     <link rel="self" href="https://bitdan.github.io/atom.xml"/>
@@ -10,6 +10,38 @@
     <logo>https://bitdan.github.io/images/avatar.png</logo>
     <icon>https://bitdan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, bitdan&apos;s bog</rights>
+    <entry>
+        <title type="html"><![CDATA[youtube去广告]]></title>
+        <id>https://bitdan.github.io/post/youtube-qu-guang-gao/</id>
+        <link href="https://bitdan.github.io/post/youtube-qu-guang-gao/">
+        </link>
+        <updated>2020-10-05T04:17:46.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>引言<br>
+由YouTube vanced来解实现去除广告</p>
+<blockquote>
+<p>视频播放时的广告是真的烦，不过这些都可以由YouTube vanced来解决</p>
+<p>此方法仅安卓手机可使用, 支持root 和非root</p>
+</blockquote>
+<ol>
+<li>去官网下载vanced manager APP,   https://vanced.app/</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/09/28/sRT6WOKBytxE7ja.png" alt="image-20200928115208909" loading="lazy"></figure>
+<ol start="2">
+<li>
+<p>根据自己的手机是否root来选择安装</p>
+<p>①&gt;.root用户, 直接安装vanced youtube , 建议安装microg</p>
+</li>
+</ol>
+<img src="https://i.loli.net/2020/10/05/Bino2wQyeCPsJLD.png" alt="image-20201005115544372" style="zoom:50%;" />
+<p>​		② &gt;.非root用户 , 安装microg 和vanced youtube即可开始使用</p>
+<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2020/10/05/VTdsHlDCbm6Jceq.png" alt="image-20201005115408845" loading="lazy"></figure>
+<ol start="3">
+<li>之后使用youtube观看视频, 播放时就没有广告了</li>
+<li>有需要的还可以安装 vanced music, 也是去除广告</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[jetbrain全家桶激活]]></title>
         <id>https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/</id>
