@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bitdan.github.io</id>
     <title>bitdan&apos;s bog</title>
-    <updated>2020-10-05T04:34:31.427Z</updated>
+    <updated>2020-10-05T04:45:17.683Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bitdan.github.io"/>
     <link rel="self" href="https://bitdan.github.io/atom.xml"/>
@@ -11,14 +11,34 @@
     <icon>https://bitdan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, bitdan&apos;s bog</rights>
     <entry>
-        <title type="html"><![CDATA[youtube去广告]]></title>
-        <id>https://bitdan.github.io/post/youtube-qu-guang-gao/</id>
-        <link href="https://bitdan.github.io/post/youtube-qu-guang-gao/">
+        <title type="html"><![CDATA[jetbrain全家桶激活]]></title>
+        <id>https://bitdan.github.io/ZFpsSKJSA/</id>
+        <link href="https://bitdan.github.io/ZFpsSKJSA/">
         </link>
-        <updated>2020-10-05T04:17:46.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<p>引言<br>
-由YouTube vanced来解实现去除广告</p>
+        <updated>2020-10-05T04:42:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
+<!-- more -->
+<p><strong>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下。</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/08/25/IZo8s5Tml3DUprX.png" alt="image-20200825212159440" loading="lazy"></figure>
+<p>如之前lib目录有jar文件先删之！启动软件选试用（Evaluate for free）- Evaluate<br>
+将激活文件 <strong>jetbrains-agent-latest.zip</strong>拖到IDE欢迎界面，重启软件弹出 配置助手 。</p>
+<p>将安装参数txt文件内容-&gt;粘贴-&gt;配置助手对话框-&gt;为产品激活，重启即激活旗舰版至2089年！</p>
+<p>链接地址  https://bias.lanzous.com/iV8JRg1s1wd</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTube去广告]]></title>
+        <id>https://bitdan.github.io/yiHH0SSnB/</id>
+        <link href="https://bitdan.github.io/yiHH0SSnB/">
+        </link>
+        <updated>2020-10-05T04:39:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>由YouTube vanced来解实现去除广告</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由YouTube vanced来解实现去除广告</p>
+<!-- more -->
+<p>引言</p>
 <blockquote>
 <p>视频播放时的广告是真的烦，不过这些都可以由YouTube vanced来解决</p>
 <p>此方法仅安卓手机可使用, 支持root 和非root</p>
@@ -40,24 +60,6 @@
 <li>之后使用youtube观看视频, 播放时就没有广告了</li>
 <li>有需要的还可以安装 vanced music, 也是去除广告</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[jetbrain全家桶激活]]></title>
-        <id>https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/</id>
-        <link href="https://bitdan.github.io/post/jetbrain-quan-jia-tong-ji-huo/">
-        </link>
-        <updated>2020-08-27T06:59:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
-<!-- more -->
-<p><strong>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下。</strong></p>
-<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/08/25/IZo8s5Tml3DUprX.png" alt="image-20200825212159440" loading="lazy"></figure>
-<p>如之前lib目录有jar文件先删之！启动软件选试用（Evaluate for free）- Evaluate<br>
-将激活文件 <strong>jetbrains-agent-latest.zip</strong>拖到IDE欢迎界面，重启软件弹出 配置助手 。</p>
-<p>将安装参数txt文件内容-&gt;粘贴-&gt;配置助手对话框-&gt;为产品激活，重启即激活旗舰版至2089年！</p>
-<p>激活文件:  https://bias.lanzous.com/iV8JRg1s1wd</p>
 ]]></content>
     </entry>
 </feed>

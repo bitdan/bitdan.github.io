@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-<title>文章归档 | bitdan&#39;s bog</title>
+<title>YouTube去广告 | bitdan&#39;s bog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -11,6 +11,12 @@
   integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="shortcut icon" href="https://bitdan.github.io/favicon.ico?v=1601873056891">
 <link rel="stylesheet" href="https://bitdan.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+
+
 
 
 
@@ -24,7 +30,16 @@
 <script
   src="https://cdn.jsdelivr.net/gh/bitdan/bitdan.github.io/media/js/jquery.min.js"></script>
 
-    <meta name="description" content="学习记录">
+    <meta name="description" content="由YouTube vanced来解实现去除广告
+
+引言
+
+视频播放时的广告是真的烦，不过这些都可以由YouTube vanced来解决
+此方法仅安卓手机可使用, 支持root 和非root
+
+
+去官网下载vanced manager APP..." />
+    <meta name="keywords" content="phone" />
   </head>
   <body>
     <div id="app" class="main">
@@ -98,40 +113,57 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">YouTube去广告</h2>
+            <div class="post-date">2020-10-05</div>
+            
+            <div class="post-content" v-pre>
+              <p>由YouTube vanced来解实现去除广告</p>
+<!-- more -->
+<p>引言</p>
+<blockquote>
+<p>视频播放时的广告是真的烦，不过这些都可以由YouTube vanced来解决</p>
+<p>此方法仅安卓手机可使用, 支持root 和非root</p>
+</blockquote>
+<ol>
+<li>去官网下载vanced manager APP,   https://vanced.app/</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/09/28/sRT6WOKBytxE7ja.png" alt="image-20200928115208909" loading="lazy"></figure>
+<ol start="2">
+<li>
+<p>根据自己的手机是否root来选择安装</p>
+<p>①&gt;.root用户, 直接安装vanced youtube , 建议安装microg</p>
+</li>
+</ol>
+<img src="https://i.loli.net/2020/10/05/Bino2wQyeCPsJLD.png" alt="image-20201005115544372" style="zoom:50%;" />
+<p>​		② &gt;.非root用户 , 安装microg 和vanced youtube即可开始使用</p>
+<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2020/10/05/VTdsHlDCbm6Jceq.png" alt="image-20201005115408845" loading="lazy"></figure>
+<ol start="3">
+<li>之后使用youtube观看视频, 播放时就没有广告了</li>
+<li>有需要的还可以安装 vanced music, 也是去除广告</li>
+</ol>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
+              <div class="tag-container">
+                
+                  <a href="https://bitdan.github.io/JZmS2ANzk/" class="tag">
+                    phone
+                  </a>
+                
+              </div>
+            
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://bitdan.github.io/ZFpsSKJSA/">
-                      <h2 class="post-title">
-                        jetbrain全家桶激活
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://bitdan.github.io/yiHH0SSnB/">
-                      <h2 class="post-title">
-                        YouTube去广告
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -157,6 +189,29 @@ var app = new Vue({
     hljs.initHighlightingOnLoad()
   </script>
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'adb32b97a718ec92d719',
+        clientSecret: '34192a4572bcbb0050d641114957976464e52d2e',
+        repo: 'bitdan.github.io',
+        owner: 'bitdan',
+        admin: ['bitdan'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
