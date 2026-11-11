@@ -1,178 +1,120 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-
-<title>bitdan&#39;s bog</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://bitdan.github.io/favicon.ico?v=1602044287765">
-<link rel="stylesheet" href="https://bitdan.github.io/styles/main.css">
-
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-<!-- jsDelivr 加速  -->
-
-<script
-  src="https://cdn.jsdelivr.net/gh/bitdan/bitdan.github.io/media/js/jquery.min.js"></script>
-
-    <meta name="description" content="学习记录">
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://bitdan.github.io">
-        <img src="https://bitdan.github.io/images/avatar.png?v=1602044287765" class="site-logo">
-        <h1 class="site-title">bitdan&#39;s bog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-        
-          <a href="https://bitdan.github.io/snap-desk/" class="site-nav">
-            Snap Desk 截图工具
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/bitdan" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      学习记录
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/bitdan/bitdan.github.io" target="_blank">bitdan</a> | <a class="rss" href="https://bitdan.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://bitdan.github.io/ZFpsSKJSA/">
-                  <h2 class="post-title">jetbrain全家桶激活</h2>
-                </a>
-                <div class="post-date">
-                  2020-10-05
-                </div>
-                <div class="post-abstract">
-                  <p>Jetbrains系列产品 2020.2 最新激活文件 v3.2.2 ，支持2020所有版本及以下</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://bitdan.github.io/yiHH0SSnB/">
-                  <h2 class="post-title">YouTube去广告</h2>
-                </a>
-                <div class="post-date">
-                  2020-10-05
-                </div>
-                <div class="post-abstract">
-                  <p>由YouTube vanced来解实现去除广告</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bitdan — 开源桌面工具：Snap Desk 截图录屏、Vela Git 客户端</title>
+  <meta name="description" content="bitdan 的开源项目主页。Snap Desk（SnapDesk）是免费开源的 Windows 截图、滚动截图、录屏与 OCR 工具；另有原生 Git 桌面客户端 Vela。">
+  <meta name="theme-color" content="#162235">
+  <link rel="canonical" href="https://bitdan.github.io/">
+  <link rel="icon" href="/favicon.ico">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="bitdan">
+  <meta property="og:title" content="bitdan — 开源桌面工具：Snap Desk 截图录屏、Vela Git 客户端">
+  <meta property="og:description" content="Snap Desk（SnapDesk）是免费开源的 Windows 截图、滚动截图、录屏与 OCR 工具；另有原生 Git 桌面客户端 Vela。">
+  <meta property="og:url" content="https://bitdan.github.io/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/bitdan/snap-desk/master/src-tauri/icons/128x128@2x.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"bitdan","url":"https://bitdan.github.io/","inLanguage":"zh-CN","author":{"@type":"Person","name":"bitdan","url":"https://github.com/bitdan"}}</script>
+  <style>
+    :root {
+      --bg: #f6f8fb; --surface: #ffffff; --text: #162235; --muted: #55627a;
+      --line: #dfe5ee; --accent: #2563eb; --accent-text: #ffffff; --tag: #eaf0fb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1623; --surface: #172132; --text: #e8edf6; --muted: #9fadc4;
+        --line: #26334a; --accent: #6ea0ff; --accent-text: #0f1623; --tag: #1f2c44;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+    header { padding: 56px 0 28px; }
+    .who { display: flex; align-items: center; gap: 16px; }
+    .who img { border-radius: 50%; border: 1px solid var(--line); }
+    h1 { margin: 0; font-size: 30px; line-height: 1.25; }
+    .tagline { margin: 4px 0 0; color: var(--muted); }
+    h2 { margin: 36px 0 14px; font-size: 20px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px;
+    }
+    .featured { display: flex; gap: 18px; align-items: flex-start; }
+    .featured img { flex: none; border-radius: 14px; }
+    .card h3 { margin: 0 0 6px; font-size: 19px; }
+    .card p { margin: 0 0 12px; color: var(--muted); }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; padding: 0; list-style: none; }
+    .tags li { background: var(--tag); border-radius: 999px; padding: 2px 11px; font-size: 13px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .button {
+      display: inline-block; padding: 8px 16px; border-radius: 9px; font-weight: 600;
+      background: var(--accent); color: var(--accent-text); border: 1px solid var(--accent);
+    }
+    .button.secondary { background: transparent; color: var(--accent); }
+    .button:hover { text-decoration: none; opacity: .9; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; }
+    .grid .card p { margin-bottom: 8px; }
+    .lang { font-size: 13px; color: var(--muted); }
+    footer { margin: 48px 0 36px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+    @media (max-width: 520px) {
+      header { padding-top: 36px; }
+      h1 { font-size: 25px; }
+      .featured { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="who">
+        <img src="/images/avatar.png" width="64" height="64" alt="bitdan 头像">
+        <div>
+          <h1>bitdan</h1>
+          <p class="tagline">开源桌面工具开发 · <a href="https://github.com/bitdan">github.com/bitdan</a></p>
         </div>
       </div>
-    </div>
+    </header>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
+    <main>
+      <section aria-labelledby="featured-title">
+        <h2 id="featured-title">主要项目</h2>
+        <article class="card featured">
+          <img src="https://raw.githubusercontent.com/bitdan/snap-desk/master/src-tauri/icons/128x128@2x.png" width="72" height="72" alt="Snap Desk 图标">
+          <div>
+            <h3><a href="https://bitdan.github.io/snap-desk/">Snap Desk — 免费开源的 Windows 截图与录屏工具</a></h3>
+            <p>Snap Desk（也写作 SnapDesk）支持区域截图、滚动截图（长截图）、图片标注、桌面贴图、MP4/GIF 录屏、OCR 文字识别、文本翻译和剪贴板历史管理。基于 Tauri 2、Rust 与 Vue 3，GPL-3.0 开源。</p>
+            <ul class="tags">
+              <li>截图</li><li>滚动截图</li><li>录屏</li><li>OCR</li><li>贴图</li><li>剪贴板</li><li>Windows x64</li>
+            </ul>
+            <div class="actions">
+              <a class="button" href="https://bitdan.github.io/snap-desk/">项目官网</a>
+              <a class="button secondary" href="https://github.com/bitdan/snap-desk/releases">下载</a>
+              <a class="button secondary" href="https://github.com/bitdan/snap-desk">GitHub 源码</a>
+              <a class="button secondary" href="https://bitdan.github.io/snap-desk/en/" lang="en">English</a>
+            </div>
+          </div>
+        </article>
+      </section>
 
-AOS.init();
+      <section aria-labelledby="more-title">
+        <h2 id="more-title">其他项目</h2>
+        <div class="grid">
+          <article class="card">
+            <h3><a href="https://github.com/bitdan/vela">Vela</a></h3>
+            <p>使用 Go 构建的原生 Git 桌面客户端。</p>
+            <span class="lang">Go</span>
+          </article>
+        </div>
+      </section>
+    </main>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-
-  </body>
+    <footer>© bitdan · <a href="https://github.com/bitdan">GitHub</a> · <a href="https://bitdan.github.io/snap-desk/">Snap Desk</a></footer>
+  </div>
+</body>
 </html>
