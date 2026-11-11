@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bitdan.github.io/snap-desk/sitemap.xml
